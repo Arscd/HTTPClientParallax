@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <arscd.httpclientparallax.AutoParallaxLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+    </arscd.httpclientparallax.AutoParallaxLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#50000000">
+
+        <TextView
+            android:id="@+id/clip_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="54dp"
+            android:layout_marginStart="54dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/artists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/clip_name"
+            android:layout_alignStart="@+id/clip_name"
+            android:layout_below="@+id/clip_name"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:id="@+id/clip_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/artists"
+            android:layout_alignStart="@+id/artists"
+            android:layout_below="@+id/artists"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"/>
+    </RelativeLayout>
+</RelativeLayout>
