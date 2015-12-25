@@ -1,5 +1,5 @@
 # HTTPClientParallax
-Это было тестовое задание в компанию BIG DIG.
+Это было тестовое задание в компанию <a href="http://bigdig.com.ua/">BIG DIG</a>.
 
 <h1>Текст тестового задания:</h1>
 
